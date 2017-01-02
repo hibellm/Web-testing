@@ -1,0 +1,2640 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.aftercaption
+{
+  background-color: #E0E0E0;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 4pt;
+}
+.batch
+{
+  background-color: #D3D3D3;
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'SAS Monospace', 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+.beforecaption
+{
+  background-color: #E0E0E0;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.body
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.bodydate
+{
+  background-color: #E0E0E0;
+  border-spacing: 0px;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  vertical-align: top;
+  width: 100%;
+}
+.bycontentfolder
+{
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.byline
+{
+  background-color: #B0B0B0;
+  border-spacing: 0px;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.bylinecontainer
+{
+  background-color: #E0E0E0;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.caption
+{
+  background-color: #E0E0E0;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.cell
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.container
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.contentfolder
+{
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentitem
+{
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentproclabel
+{
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+}
+.contentprocname
+{
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+}
+.contents
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.contentsdate
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.contenttitle
+{
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: italic;
+  font-weight: normal;
+}
+.continued
+{
+  background-color: #E0E0E0;
+  border-spacing: 0px;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+}
+.data
+{
+  background-color: #D3D3D3;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasis
+{
+  background-color: #D3D3D3;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataemphasisfixed
+{
+  background-color: #D3D3D3;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataempty
+{
+  background-color: #D3D3D3;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datafixed
+{
+  background-color: #D3D3D3;
+  color: #000000;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datastrong
+{
+  background-color: #D3D3D3;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.datastrongfixed
+{
+  background-color: #D3D3D3;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.date
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.document
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+a:link {
+color:#0066AA
+}
+a:visited {
+color:#004488
+}
+a:active {
+color:#004488
+}
+.errorbanner
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.errorcontent
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontentfixed
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.extendedpage
+{
+  background-color: #E0E0E0;
+  border: 1pt solid #000000;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.fatalbanner
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.fatalcontent
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontentfixed
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.folderaction
+{
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.footer
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.footeremphasis
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footeremphasisfixed
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footerempty
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerfixed
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.footerstrong
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerstrongfixed
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.frame
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.graph
+{
+  background-color: #E0E0E0;
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.header
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.headeremphasis
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headeremphasisfixed
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headerempty
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerfixed
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.headersandfooters
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrong
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrongfixed
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.index
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexaction
+{
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexitem
+{
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexprocname
+{
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+}
+.indextitle
+{
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: italic;
+  font-weight: normal;
+}
+.layoutcontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.layoutregion
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.linecontent
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.list
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.list10
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list2
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.list3
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list4
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list5
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list6
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list7
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list8
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list9
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.listitem10
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem2
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.listitem3
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem4
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem5
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem6
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem7
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem8
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem9
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.note
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notebanner
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.notecontent
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontentfixed
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.output
+{
+  background-color: #F0F0F0;
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.pageno
+{
+  background-color: #E0E0E0;
+  border-spacing: 0px;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+.pages
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pagesdate
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.pagesitem
+{
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.pagesproclabel
+{
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+}
+.pagesprocname
+{
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+}
+.pagestitle
+{
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: italic;
+  font-weight: normal;
+}
+.paragraph
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.parskip
+{
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.prepage
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+.proctitle
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.proctitlefixed
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooter
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooteremphasis
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooteremphasisfixed
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooterempty
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterfixed
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowfooterstrong
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterstrongfixed
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheader
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderemphasis
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderemphasisfixed
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderempty
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderfixed
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowheaderstrong
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderstrongfixed
+{
+  background-color: #B0B0B0;
+  color: #0033AA;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemfooter
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter10
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter2
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter3
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter4
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter5
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter6
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter7
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter8
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter9
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle10
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle2
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle3
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle4
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle5
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle6
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle7
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle8
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle9
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+.systitleandfootercontainer
+{
+  background-color: #E0E0E0;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.table
+{
+  background-color: #F0F0F0;
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  background-color: #E0E0E0;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.titlesandfooters
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.usertext
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warnbanner
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.warncontent
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontentfixed
+{
+  background-color: #E0E0E0;
+  color: #002288;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+</head>
+<body onload="startup()" onunload="shutdown()" class="body">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><script>$(document).ready(function(){    $("#QC001").click(function(){        $("#QCText1").slideToggle();    });});$(document).ready(function(){    $("#QC002").click(function(){        $("#QCText2").slideToggle();    });});$(document).ready(function(){    $("#QC003").click(function(){        $("#QCText3").slideToggle();    });});function change( el ){    if ( el.value === "Show" )        el.value = "Hide";    else        el.value = "Show";}</script> 
+<div class="branch">
+<a name="IDX"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="l systemtitle" style=" font-size: large;">{hibellm : 29NOV16 13:07}</td>
+</tr>
+<tr>
+<td class="c systemtitle2" style=" font-size: xx-large;">QC Checks Summary table</td>
+</tr>
+<tr>
+<td class="c systemtitle3" style=" font-size: xx-large;">Database PC_RWD_VDM_IPSOS                                                                                                                </td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="1" cellpadding="7" rules="groups" frame="box" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c header" scope="col">QC Check ID</th>
+<th class="c header" scope="col">Column Name</th>
+<th class="c header" scope="col">Status?</th>
+<th class="c header" scope="col">Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">001</td>
+<td class="l data">QC Check 001: Check for missing comments - Results</td>
+<td class="l data" style=" background-color: #FF0000;">FAILED</td>
+<td class="l data"><input Type='button' id='QC001' value='Show' onclick='return change(this);'></input></td>
+</tr>
+<tr>
+<td class="l data">002</td>
+<td class="l data">QC Check 002: Check for Indexes/Partitions and Skew - Results</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+<td class="l data"><input Type='button' id='QC002' value='Show' onclick='return change(this);'></input></td>
+</tr>
+<tr>
+<td class="l data">003</td>
+<td class="l data">QC Check 003: Observation number change - Results</td>
+<td class="l data" style=" background-color: #FFFF00;">TO CHECK</td>
+<td class="l data"><input Type='button' id='QC003' value='Show' onclick='return change(this);'></input></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div id="QCText1" style="display: none">
+<div class="branch">
+<a name="IDX"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle2" style=" font-size: xx-large;">QC Check 001: Check for missing comments - Results</td>
+</tr>
+<tr>
+<td class="c systemtitle3" style=" font-size: xx-large;">Database PC_RWD_VDM_IPSOS                                                                                                                </td>
+</tr>
+<tr>
+<td class="c systemtitle4" style=" background-color: #D3D3D3; color: #FF0000;">The QC test (CommentStrings populated) has FAILED!</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="1" cellpadding="7" rules="groups" frame="box" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c header" scope="col">Table Name</th>
+<th class="c header" scope="col">Column Name</th>
+<th class="c header" scope="col">CommentString</th>
+<th class="c header" scope="col">Status?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">DOC</td>
+<td class="c data">&nbsp;</td>
+<td class="l data">Doctor Details</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">BATCH_DESCRIPTION</td>
+<td class="l data">Batch Description</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">BATCH_TITLE</td>
+<td class="l data">Batch Title</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">Country</td>
+<td class="l data">Country</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">DocNo</td>
+<td class="l data">Doctor ID</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">Doc_spec_rec</td>
+<td class="l data">Doctor Speciality (as recruited)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">Hosp_type</td>
+<td class="l data">Hospital location (e.g city teaching, rural)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">ROW_NUMBER_</td>
+<td class="l data">Row Number</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">VALID_END</td>
+<td class="l data">Valid End</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">VALID_START</td>
+<td class="l data">Valid Start</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="l data">PAT</td>
+<td class="c data">&nbsp;</td>
+<td class="l data">Patient Details</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">Age</td>
+<td class="l data">Patient Age Groups</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">Age_Num</td>
+<td class="l data">Patient age (Numerical)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">BATCH_DESCRIPTION</td>
+<td class="l data">Batch Description</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">BATCH_TITLE</td>
+<td class="l data">Batch Title</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">IdNum</td>
+<td class="l data">Patient ID</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">ROW_NUMBER_</td>
+<td class="l data">Row Number</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">VALID_END</td>
+<td class="l data">Valid End</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">VALID_START</td>
+<td class="l data">Valid Start</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">abnormality_cll</td>
+<td class="l data">CLL specific info on associated abnormality</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">bisphos_presc</td>
+<td class="l data">Biphosphonates - Reason to prescribe</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">brca_stat</td>
+<td class="l data">BRCA status</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">conceffect</td>
+<td class="l data">Are concomitant drugs affecting cancer treatment, for example cardiac or renal function disorder</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">context_curr</td>
+<td class="l data">Context of current therapy</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">country_pt</td>
+<td class="l data">Country (at patient level)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">cyc_current</td>
+<td class="l data">Current cycle number (grouped)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">cyc_currn</td>
+<td class="l data">Current cycle number (details)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">cyc_length</td>
+<td class="l data">Cycle length (grouped)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">cyc_lengthn</td>
+<td class="l data">Cycle length (details)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">cyc_plann</td>
+<td class="l data">Cycles planned (numerical)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">cyclespln</td>
+<td class="l data">Number of cycles planned of this regimen, not including this reported cycle</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">dat_1st_diag</td>
+<td class="l data">Date first diagnosis</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">dat_consult</td>
+<td class="l data">Month of consultation</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">dat_process</td>
+<td class="l data">Month data processed by Ipsos</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">docno</td>
+<td class="l data">Doctor ID</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">drg_all_current_pt</td>
+<td class="l data">Drugs from all current treatments</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">drg_cancer_fa_pt</td>
+<td class="l data">All anti - cancer drugs plus Folinic Acid (at patient level)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">drg_cancer_pt</td>
+<td class="l data">All anti - cancer drugs (at patient level)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">ecog_stat</td>
+<td class="l data">Performance - ECOG</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">egfr_mut</td>
+<td class="l data">Type of mutation for EGFR mutants</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">egfrstat</td>
+<td class="l data">EGFR status</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">er_status</td>
+<td class="l data">ER status</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">ethn</td>
+<td class="l data">Patient Ethnicity</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">folfx_curr</td>
+<td class="l data">Current Folfox regimen Number/type</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">gender</td>
+<td class="l data">Gender of patient</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">height</td>
+<td class="l data">Height of patient as ranges</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">heightn</td>
+<td class="l data">Height of patient as numeric</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">her2calc</td>
+<td class="l data">HER2 status based on IHC/FISH scores</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">her2use</td>
+<td class="l data">HER2 test used/ test score</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">hgbepo</td>
+<td class="l data">Haemogoblin/Hgb level (g/dl) (numeric)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">hist_nscl</td>
+<td class="l data">NSCL Histologies</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">hormone_resist</td>
+<td class="l data">Whether patient is hormone resistant/refractory</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">jak2</td>
+<td class="l data">JAK2 biomarker</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">ki67</td>
+<td class="l data" nowrap>KI-67 biomarker</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">kras_stat</td>
+<td class="l data">K-RAS status</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">line_all1</td>
+<td class="l data">Line of treatment for all sites accounting for appropriate Adjuvant and Metastatic setting</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">line_percep</td>
+<td class="l data">Current Line of therapy as indicated by doctor</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">menopause</td>
+<td class="l data">Is menopausal state pre-menopausal, peri or post</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">met_site</td>
+<td class="l data">Distant sites metastasised (frequency)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">minor_site</td>
+<td class="l data">Minor Cancer Tumour sites</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">nc_reason</td>
+<td class="l data">Reason chose this regimen over other option</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">nc_somacpt</td>
+<td class="l data">Patient State of Mind - Patient may accept experimental therapies (new compounds)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">nc_somactv</td>
+<td class="l data">Patient State of Mind - Patient actively looks out for any new treatment and talks it over with the doctor/nurse</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">nc_somdetr</td>
+<td class="l data">Patient State of Mind - Patient is determined to continue active treatment</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">nc_somnoth</td>
+<td class="l data">Patient State of Mind - Patient believes there is nothing he/she or doctor can do to change disease progression</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">nc_somqol</td>
+<td class="l data">Patient State of Mind - Patient not willing to tolerate any treatment which compromises Qol</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">nhl_indagg</td>
+<td class="l data">Indolent or Aggressive for NHL</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">nodstat</td>
+<td class="l data">Nodal status of first diagnosis of current cancer</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">numcycs</td>
+<td class="l data">Number of cycles prescribed [numcycs]</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">pat_in_out</td>
+<td class="l data">In/Out Patient</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">pat_status</td>
+<td class="l data">Newly diagnosed, follow-up or relapsed/progressed patient</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">patgrp</td>
+<td class="l data">Patient Group (Main Monitor or Top-up)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">pr_status</td>
+<td class="l data">PgR status</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">projvalp</td>
+<td class="l data">Patient projection factor</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">projvalue</td>
+<td class="l data">Patient - treatment projection factor</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">projvaluemt</td>
+<td class="l data">Patient - treatment projection factor (monthly - US only)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">ptran_eli</td>
+<td class="c data">&nbsp;</td>
+<td class="l data" style=" background-color: #FF0000;">FAILED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">sarean</td>
+<td class="l data">Surface area (sq m) (numerical)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">se_actual_i_ii</td>
+<td class="l data">Summary of actual extent of side effects suffered without clinical intervention - Grade I-II</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">se_actual_iii</td>
+<td class="l data">Summary of actual extent of side effects suffered without clinical intervention - Grade III</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">se_actual_iv</td>
+<td class="l data">Summary of actual extent of side effects suffered without clinical intervention - Grade IV</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">se_actual_non</td>
+<td class="l data">Summary of actual extent of side effects suffered without clinical intervention - None</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">smoke</td>
+<td class="l data">Smoking habit</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">stage_current</td>
+<td class="l data">Stage combined (version2): by stage I - IV</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">stage_diagnos</td>
+<td class="l data">Stage at diagnosis - combined (version2): by stage I - IV</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">stat_alk</td>
+<td class="l data">ALK status</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">stat_braf</td>
+<td class="l data">BRAF status</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">stat_ca125</td>
+<td class="l data">CA125 status</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">stat_cd20</td>
+<td class="l data">CD20 status</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">stat_cd38</td>
+<td class="l data">CD38 status</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">stat_egfroe</td>
+<td class="l data">EGFROE status</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">stat_flt</td>
+<td class="l data">FLT status</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">stat_hpv</td>
+<td class="l data">HPV status</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">stat_nras</td>
+<td class="l data">NRAS status</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">stat_pdl1</td>
+<td class="l data">PDL1 status [stat_pdl1]</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">stat_phil</td>
+<td class="l data">PHIL status</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">stat_t315i</td>
+<td class="l data">T315I status</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">stat_zap70</td>
+<td class="l data">ZAP70 status</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">surf_area</td>
+<td class="l data">Surface area (m2)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">therapy</td>
+<td class="l data">The current therapy is ...</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">time_relapse</td>
+<td class="l data">Time between 1st diagnosis and the last relapse occured</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">treat_current</td>
+<td class="l data">Current treatment (chemotherapy, radiotherapy)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">treat_past</td>
+<td class="l data">Past treatment (chemotherapy, radiotherapy, surgery)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">trial_cancer</td>
+<td class="l data">Patient on trial drug all anti - cancer treatments</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">tumour_cell_type</td>
+<td class="l data">Cancer type</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">tumour_site</td>
+<td class="l data">Cancer Tumour sites</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">weight</td>
+<td class="l data">Weight of patient (Kg)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">weightn</td>
+<td class="l data">weight (Numerical)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="l data">PRV</td>
+<td class="c data">&nbsp;</td>
+<td class="l data">Previous Medication</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">BATCH_DESCRIPTION</td>
+<td class="l data">Batch Description</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">BATCH_TITLE</td>
+<td class="l data">Batch Title</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">ROW_NUMBER_</td>
+<td class="l data">Row Number</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">VALID_END</td>
+<td class="l data">Valid End</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">VALID_START</td>
+<td class="l data">Valid Start</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">context_prev</td>
+<td class="l data">Context of previous therapy</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">dat_prev_end</td>
+<td class="l data">Date - previous therapy end (month year)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">dat_prev_st</td>
+<td class="l data">Date - previous therapy start (month year)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">docno</td>
+<td class="l data">Doctor ID</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">drg_prev</td>
+<td class="l data">All Drugs for previous anti - cancer treatment (no supportive care included)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">folfx_prev</td>
+<td class="l data">Previous Folfox regimen Number/type</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">idnum</td>
+<td class="l data">Patient ID</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">nprecycg</td>
+<td class="l data">No. of cycles for previous anti-cancer treatment given (numerical)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">preline</td>
+<td class="l data">Line of previous anti-cancer treatment</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">preout</td>
+<td class="l data">Output of previous therapy</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">prereason</td>
+<td class="l data">Reason this therapy was changed</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">prev_id</td>
+<td class="l data">Previous Treatment ID</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">trt_lengthmpr</td>
+<td class="l data">Treatment length for previous drug (numerical)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">trt_lengthprv</td>
+<td class="l data">Treatment length for previous drug</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="l data">TRT</td>
+<td class="c data">&nbsp;</td>
+<td class="l data">Current Treatment</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">BATCH_DESCRIPTION</td>
+<td class="l data">Batch Description</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">BATCH_TITLE</td>
+<td class="l data">Batch Title</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">ROW_NUMBER_</td>
+<td class="l data">Row Number</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">VALID_END</td>
+<td class="l data">Valid End</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">VALID_START</td>
+<td class="l data">Valid Start</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">admin_days</td>
+<td class="l data">Number of days of administration</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">auc_curr</td>
+<td class="l data">Dose - Area Under Curve (numerical)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">dat_cancer</td>
+<td class="l data">Date - Cancer (month year)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">daysxd</td>
+<td class="l data">Number of days treatment given (per cycle) - all treatments (numerical)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">docno</td>
+<td class="l data">Doctor ID</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">drg_all_current</td>
+<td class="l data">All anti - cancer and anti - toxic drugs</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">idnum</td>
+<td class="l data">Patient ID</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">milgm</td>
+<td class="l data">Dose in mg (numeric)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">route_admin</td>
+<td class="l data">Route of administration</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">treat_summt</td>
+<td class="l data">Treatment summary (all therapies at treatment level)</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">trt_id</td>
+<td class="l data">Current Treatment ID</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="QCText2" style="display: none">
+<div class="branch">
+<a name="IDX"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle2" style=" font-size: xx-large;">QC Check 002: Check for Indexes/Partitions and Skew - Results</td>
+</tr>
+<tr>
+<td class="c systemtitle3" style=" font-size: xx-large;">Database PC_RWD_VDM_IPSOS                                                                                                                </td>
+</tr>
+<tr>
+<td class="c systemtitle4" style=" background-color: #D3D3D3; color: #008000;">The QC test (Indexes/Partitions/Constraints/Skew) has PASSED</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="1" cellpadding="7" rules="groups" frame="box" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c header" scope="col">Table Name</th>
+<th class="c header" scope="col">Column Name</th>
+<th class="c header" scope="col">Status?</th>
+<th class="c header" scope="col">Current Perm (MB)</th>
+<th class="c header" scope="col">Skew Factor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">DOC</td>
+<td class="l data">DocNo</td>
+<td class="l data">Partitioned Primary</td>
+<td class="c data"> 5.47</td>
+<td class="c data" style=" background-color: #008000;"> 0.34</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">LOAD_ID</td>
+<td class="l data">Partitioned Primary</td>
+<td class="c data"> 5.47</td>
+<td class="c data" style=" background-color: #008000;"> 0.34</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">SOURCE_FILE_ID</td>
+<td class="l data">Partitioned Primary</td>
+<td class="c data"> 5.47</td>
+<td class="c data" style=" background-color: #008000;"> 0.34</td>
+</tr>
+<tr>
+<td class="l data">PAT</td>
+<td class="l data">IdNum</td>
+<td class="l data">Partitioned Primary</td>
+<td class="c data"> 1877</td>
+<td class="c data" style=" background-color: #008000;"> 2.51</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">LOAD_ID</td>
+<td class="l data">Partitioned Primary</td>
+<td class="c data"> 1877</td>
+<td class="c data" style=" background-color: #008000;"> 2.51</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">SOURCE_FILE_ID</td>
+<td class="l data">Partitioned Primary</td>
+<td class="c data"> 1877</td>
+<td class="c data" style=" background-color: #008000;"> 2.51</td>
+</tr>
+<tr>
+<td class="l data">PRV</td>
+<td class="l data">idnum</td>
+<td class="l data">Partitioned Primary</td>
+<td class="c data">379.3</td>
+<td class="c data" style=" background-color: #008000;"> 5.78</td>
+</tr>
+<tr>
+<td class="l data">TRT</td>
+<td class="l data">idnum</td>
+<td class="l data">Partitioned Primary</td>
+<td class="c data">675.6</td>
+<td class="c data" style=" background-color: #008000;"> 4.22</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="QCText3" style="display: none">
+<div class="branch">
+<a name="IDX"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" summary="Page Layout">
+<tr>
+<td class="c systemtitle2" style=" font-size: xx-large;">QC Check 003: Observation number change - Results</td>
+</tr>
+<tr>
+<td class="c systemtitle3" style=" font-size: xx-large;">Database PC_RWD_VDM_IPSOS                                                                                                                </td>
+</tr>
+<tr>
+<td class="c systemtitle4" style=" background-color: #D3D3D3; color: #FFFF00;">The QC test (Observation number change) has TO CHECK  </td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="1" cellpadding="7" rules="groups" frame="box" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c header" scope="col">Table Name</th>
+<th class="c header" scope="col">Batch_title</th>
+<th class="c header" scope="col">Number Observations</th>
+<th class="c header" scope="col">% Change</th>
+<th class="c header" scope="col">Status?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">DOC</td>
+<td class="l data">IPSOS 2015 Q2</td>
+<td class="l data">     7184</td>
+<td class="c data">  .  </td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">IPSOS 2015 Q3</td>
+<td class="l data">     7196</td>
+<td class="c data"> 0.17</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">IPSOS 2015 Q4</td>
+<td class="l data">     8108</td>
+<td class="c data">12.67</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">IPSOS 2016 Q1</td>
+<td class="l data">     8780</td>
+<td class="c data"> 8.29</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">IPSOS 2016 Q2</td>
+<td class="l data">    10191</td>
+<td class="c data">16.07</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="l data">PAT</td>
+<td class="l data">IPSOS 2015 Q2</td>
+<td class="l data">   645494</td>
+<td class="c data">  .  </td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">IPSOS 2015 Q3</td>
+<td class="l data">   680128</td>
+<td class="c data"> 5.37</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">IPSOS 2015 Q4</td>
+<td class="l data">   961060</td>
+<td class="c data">41.31</td>
+<td class="l data" style=" background-color: #FFFF00;">TO CHECK</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">IPSOS 2016 Q1</td>
+<td class="l data">   874654</td>
+<td class="c data" nowrap>-8.99</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">IPSOS 2016 Q2</td>
+<td class="l data">   916127</td>
+<td class="c data"> 4.74</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="l data">PRV</td>
+<td class="l data">IPSOS 2015 Q2</td>
+<td class="l data">   870957</td>
+<td class="c data">  .  </td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">IPSOS 2015 Q3</td>
+<td class="l data">   932597</td>
+<td class="c data"> 7.08</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">IPSOS 2015 Q4</td>
+<td class="l data">  1294828</td>
+<td class="c data">38.84</td>
+<td class="l data" style=" background-color: #FFFF00;">TO CHECK</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">IPSOS 2016 Q1</td>
+<td class="l data">  1199295</td>
+<td class="c data" nowrap>-7.38</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">IPSOS 2016 Q2</td>
+<td class="l data">  1269267</td>
+<td class="c data"> 5.83</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="l data">TRT</td>
+<td class="l data">IPSOS 2015 Q2</td>
+<td class="l data">  2009938</td>
+<td class="c data">  .  </td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">IPSOS 2015 Q3</td>
+<td class="l data">  2106918</td>
+<td class="c data"> 4.83</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">IPSOS 2015 Q4</td>
+<td class="l data">  2994453</td>
+<td class="c data">42.12</td>
+<td class="l data" style=" background-color: #FFFF00;">TO CHECK</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">IPSOS 2016 Q1</td>
+<td class="l data">  2698297</td>
+<td class="c data" nowrap>-9.89</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+<tr>
+<td class="c data">&nbsp;</td>
+<td class="l data">IPSOS 2016 Q2</td>
+<td class="l data">  2799704</td>
+<td class="c data"> 3.76</td>
+<td class="l data" style=" background-color: #008000;">PASSED</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+</div></body></html>
