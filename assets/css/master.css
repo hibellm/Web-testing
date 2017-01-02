@@ -1,7 +1,6 @@
 <!--MASTER CSS-->
 
 /* master.css */
-@import url("reset.css");
-@import url("global.css");  
+@import url("https://hibellm.github.io/Web-testing/assets/css/reset.css");
+@import url("https://hibellm.github.io/Web-testing/assets/css/global.css");  
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-
