@@ -124,7 +124,6 @@ d3.tsv("data.tsv", type, function(error, data) {
       .attr("height", function(d) { return height - y(d.frequency); })
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide)
-
 });
 
 function type(d) {
